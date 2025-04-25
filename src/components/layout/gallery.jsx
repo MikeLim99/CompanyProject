@@ -23,7 +23,7 @@ export default function Gallery() {
         <h4>FEATURED PROJECT</h4>
         <h2>WHERE HAPPINESS LIVES</h2>
       </div>
-      <div id="carouselExampleIndicators" className="carousel slide w-50 mx-auto p-3" data-bs-interval="false">
+      <div id="carouselExampleIndicators" className="carousel slide w-50 mx-auto" data-bs-interval="false">
         <div className="carousel-indicators">
           {images.map((_, index) => (
             <button
@@ -45,7 +45,7 @@ export default function Gallery() {
               className={`carousel-item ${index === activeIndex ? "active" : ""}`}
               onTransitionEnd={() => handleSlideChange(index)}
             >
-              <img src={img} className="d-block w-100" alt={`Slide ${index + 1}`} />
+              <img src={img} className="showcase" alt={`Slide ${index + 1}`} />
             </div>
           ))}
         </div>

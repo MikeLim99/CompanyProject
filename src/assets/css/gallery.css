@@ -5,7 +5,10 @@
     height: fit-content;
     padding: 100px 0;
 }
-
+.showcase {
+  display: block;
+  width: 100%;
+}
 .gallery h4{
     color: var(--highlight-color);
     
@@ -41,6 +44,7 @@
     border-radius: 8px; /* Matches the image's border radius */
   }
 
+
   /* MEDIA QUERIES FOR MOBILE OR SMALLER VIEWPORTS */
 
 @media (max-width: 450px) { 
@@ -56,4 +60,12 @@
     margin-right: 10px;
   }
 }
+
+@media (max-width: 399px) { 
+  .carouselExampleIndicators {
+    width: 100%;
+    padding: 0;
+  }
+}
+
 
