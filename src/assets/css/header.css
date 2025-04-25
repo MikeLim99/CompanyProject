@@ -50,37 +50,6 @@
     .logo img {
         width: 150px;
     }
-
-    .nav-menu {
-        display: none;
-    }
-
-
-    .nav-menu.active {
-        position: absolute;
-        top: 115px;
-        right: 0;
-        display: flex;
-        justify-content: center;
-        width: 50%;
-        height: 50%;
-        background-color: #1414147a;
-        backdrop-filter: blur(5px);
-    }
-
-    .nav-menu ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .nav-menu ul li {
-        margin: 10px 0;
-        font-size: 14px;
-    }
-
-    .hamburger {
-        display: flex;
-    }
 }
 
 @media (max-width: 768px) {
