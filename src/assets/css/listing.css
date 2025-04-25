@@ -54,6 +54,9 @@ label {
     min-width: 70px;
 }
 
+.content label:nth-child(3){
+    padding-left: 30px;
+}
 /* MEDIA QUERIES FOR MOBILE OR SMALLER VIEWPORTS */
 @media (max-width: 768px) { 
     .listing-form {
@@ -62,6 +65,9 @@ label {
         padding: 20px;
         gap: 20px;
         height: fit-content;
+    }
+    .content label:nth-child(3){
+        padding-left: 0;
     }
 
     .group {

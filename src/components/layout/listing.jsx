@@ -12,7 +12,7 @@ export default function Listing( ) {
                     <label htmlFor="name">LOCATION :</label>
                     <input type="text" id="name" name="name" required />
                 <div className="content">
-                <label htmlFor="BEDROOM">BEDROOMS</label>
+                    <label htmlFor="BEDROOM">BEDROOMS</label>
                     <select id="price" name="Price" required >
                         <option value="0">1</option>
                         <option value="100000">2</option>
