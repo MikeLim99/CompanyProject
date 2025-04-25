@@ -49,7 +49,8 @@
 }
 
 /* MEDIA QUERIES FOR MOBILE OR SMALLER VIEWPORTS */
-@media (max-width: 768px) {
+
+@media (max-width: 1300px) {
     .services {
         display: flex;
         flex-direction: column;

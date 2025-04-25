@@ -35,8 +35,7 @@ h1 {
 }
 
 /* MEDIA QUERIES FOR MOBILE OR SMALLER VIEWPORTS */
-
-@media (max-width: 450px) { 
+@media (max-width: 1300px) { 
     .hero h1 {
         font-size: 50px;
     }

@@ -58,6 +58,23 @@ label {
     padding-left: 30px;
 }
 /* MEDIA QUERIES FOR MOBILE OR SMALLER VIEWPORTS */
+@media (max-width: 1300px) {
+    .listing .content label:nth-child(3){
+        padding-left: 0;
+    }
+    .listing .group:nth-child(1) .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .listing .design {
+        height: fit-content;
+    }
+    .listing {
+        height: fit-content;
+        padding: 100px 0;
+    }
+}
+
 @media (max-width: 768px) { 
     .listing-form {
         flex-direction: column;
@@ -66,7 +83,7 @@ label {
         gap: 20px;
         height: fit-content;
     }
-    .content label:nth-child(3){
+    .listing .content label:nth-child(3){
         padding-left: 0;
     }
 

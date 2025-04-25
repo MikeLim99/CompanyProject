@@ -89,7 +89,7 @@ code {
 
 
 /* MEDIA QUERIES FOR MOBILE OR SMALLER VIEWPORTS */
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
   html, body{
     background: url('./assets/images/image 2.png') no-repeat;
     overflow-x: hidden;
