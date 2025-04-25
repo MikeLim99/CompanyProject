@@ -23,7 +23,7 @@ export default function Gallery() {
         <h4>FEATURED PROJECT</h4>
         <h2>WHERE HAPPINESS LIVES</h2>
       </div>
-      <div id="carouselExampleIndicators" className="carousel slide w-50 mx-auto" data-bs-interval="false">
+      <div id="carouselExampleIndicators" className="carousel slide" data-bs-interval="false">
         <div className="carousel-indicators">
           {images.map((_, index) => (
             <button
