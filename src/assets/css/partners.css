@@ -1,0 +1,32 @@
+.partners {
+    background-color: var(--primary-color);
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+
+/* MEDIA QUERIES FOR MOBILE OR SMALLER VIEWPORTS */
+@media (max-width: 768px) { 
+    .partners {
+        gap: 6rem;
+    }
+    .partners-image img {
+        width: 90px;
+        height: auto;
+    }
+}
+
+@media (max-width: 450px) {
+    .partners-image img{
+        width: 70px;
+        height: auto;
+    }
+    .partners {
+        gap: 2rem;
+        height: 30vh;
+    }
+}

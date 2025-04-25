@@ -1,0 +1,51 @@
+.hero {
+    width: 100%;
+    color: white;
+}
+
+p {
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+h1 {
+    font-family: var(--primary-font);
+    font-size: 75px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.hero-content {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.hero-btn {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    animation: fadeInLeft 1s ease-in-out;
+}
+
+/* MEDIA QUERIES FOR MOBILE OR SMALLER VIEWPORTS */
+
+@media (max-width: 450px) { 
+    .hero h1 {
+        font-size: 50px;
+    }
+
+    .hero p {
+        font-size: 15px;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+}

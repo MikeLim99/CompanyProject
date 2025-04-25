@@ -1,0 +1,59 @@
+.gallery {
+    background-color: #141414;
+    width: 100%;
+    font-family: var(--title-font);
+    height: fit-content;
+    padding: 100px 0;
+}
+
+.gallery h4{
+    color: var(--highlight-color);
+    
+}
+
+.gallery h2 {
+    color: #fff;
+    padding-bottom: 25px;
+}
+
+.image-grid {
+    display: flex;
+    justify-content: center; /* Centers the grid horizontally */
+    align-items: center; /* Centers the grid vertically (if needed) */
+  }
+
+.image-grid .hlight{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+  }
+  
+  .image-grid .hlight img {
+    opacity: .5;
+    object-fit: cover; /* Ensures the image covers the square without distortion */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effects */
+  }
+  
+  .image-grid .highlight img {
+    opacity: 1; /* Full opacity for the highlighted image */
+    transform: scale(1.05); /* Slight zoom effect when highlighted */
+    border-radius: 8px; /* Matches the image's border radius */
+  }
+
+  /* MEDIA QUERIES FOR MOBILE OR SMALLER VIEWPORTS */
+
+@media (max-width: 450px) { 
+  .image-grid {
+    display: none;
+  }
+  .carousel-control-next-icon {
+    width: 20px;
+    margin-left: 10px;
+  }
+  .carousel-control-prev-icon {
+    width: 20px;
+    margin-right: 10px;
+  }
+}
+
