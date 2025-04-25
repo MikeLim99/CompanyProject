@@ -14,7 +14,6 @@ export default function Footer() {
             <div className='back-to-top'>
                 <a href='#'>BACK TO TOP</a>
             </div>
-            
         </div>
     )
 }

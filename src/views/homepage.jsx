@@ -1,4 +1,3 @@
-import Map from "../components/basics/map";
 import Aaa from "../components/layout/aaa";
 import About from "../components/layout/about";
 import Contacts from "../components/layout/contacts";
@@ -25,6 +24,5 @@ export default function HomePage() {
         <Contacts />
         <Footer />
         </>
-
     )
 }
